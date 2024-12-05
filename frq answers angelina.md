@@ -32,7 +32,9 @@ Consider the first iteration statement included in the Procedure section of your
 Consider the procedure identified in part (i) of the Procedure section of your Personalized Project Reference.
 
 - Write two calls to your procedure that each cause a different code segment in the procedure to execute.
-  > insertText(thing, "file"); and insertText(thing2, "notfile");
+  ` insertText(thing, "file");`
+  and
+  `insertText(thing2, "notfile");`
 - Describe the expected behavior of each call. If it is not possible for two calls to your procedure to cause different code segments to execute, explain why this is the case for your procedure.
   > first call: insert into reslts on the html the item, howevr, the secondthing would take the words inside of the thing2, and put it on the page
 
@@ -40,10 +42,12 @@ Consider the procedure identified in part (i) of the Procedure section of your P
 
 Suppose another programmer provides you with a procedure called `checkValidity(value)` that:
 
+```
 content.forEach(function (value) =>
 let something = checkValidity(value);
 if something === true
 return something;)
+```
 
 - Returns `true` if a value passed as an argument is considered valid by the other programmer.
 - Returns `false` otherwise.
